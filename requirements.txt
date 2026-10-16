@@ -6,3 +6,4 @@ torchvision>=0.15.0
 matplotlib>=3.7.0
 tqdm>=4.65.0
 ipykernel>=6.20.0
+ultralytics
