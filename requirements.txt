@@ -4,6 +4,11 @@ opencv-python>=4.8.0
 torch>=2.0.0
 torchvision>=0.15.0
 matplotlib>=3.7.0
-tqdm>=4.65.0
 ipykernel>=6.20.0
-ultralytics
+fastapi==0.110.0
+uvicorn[standard]==0.28.0
+ultralytics==8.2.0
+opencv-python-headless==4.9.0.80
+pydantic==2.6.4
+python-multipart==0.0.9
+huggingface-hub==0.22.0
