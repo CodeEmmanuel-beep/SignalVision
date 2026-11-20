@@ -1,4 +1,26 @@
-#SignalVision
+<div align="center">
+
+# 🚦 SignalVision
+
+**End-to-End Traffic Light Detection & Real-Time Inference Pipeline**
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![YOLO](https://img.shields.io/badge/Ultralytics-YOLO26s-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)](https://docs.ultralytics.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Inference_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+
+*Automated training, evaluation, and containerized inference for real-time traffic signal classification (`stop`, `warning`, `go`) trained on the LISA Traffic Light Dataset.*
+
+[Overview](#-overview) •
+[Architecture](#-architecture) •
+[Model Performance](#-model-performance) •
+[Quickstart](#-quickstart) •
+[API Reference](#-api-reference)
+
+</div>
+
+---
 ---
 
 
