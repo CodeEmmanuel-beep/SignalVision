@@ -70,8 +70,8 @@ SignalVision uses the **LISA Traffic Light Dataset**, which contains driving-sce
 ### Corrected Dataset Inventory
 Following dataset exploration and a preprocessing audit that corrected earlier omissions, the inventory established:
 
-* **~44,075** images across daytime and nighttime driving sequences.
-* **111,111+** annotation records, including frames containing multiple traffic lights.
+* **44,075** images across daytime and nighttime driving sequences.
+* **112,370** annotation records, including frames containing multiple traffic lights.
 * **7** original annotation categories consolidated into **3** target classes.
 
 > **Preprocessing Audit Note:** During preprocessing, two annotation directories—`sample-nightClip1` and `sample-dayClip6`—were found to have been previously omitted due to a preprocessing issue. The annotation inventory was updated to include them.
@@ -98,10 +98,8 @@ Before training models, exploratory checks were performed to understand data org
 * Examining temporal structure across video-derived sequences.
 * Cross-checking annotation records against available image files and visually inspecting annotated and unannotated frames.
 
-### Key Observations
+### Key Observation
 * **Class Imbalance:** `Warning` is substantially underrepresented compared to `Stop` and `Go`—both overall and in the validation split—making per-class metrics essential when evaluating performance.
-* **Annotation Coverage:** Manual inspection of a sample of unlabelled images during false-positive analysis revealed visible traffic lights with missing ground-truth labels. Unannotated objects in evaluation data can cause valid detections to be counted as false positives, though this does not mean every background prediction is a true signal.
-
 ---
 
 ## Automated Dataset Preprocessing
