@@ -226,6 +226,7 @@ SignalVision
 │   └── training.py
 └── test_folder
 ```
+---
 
 ## Project Status
 
