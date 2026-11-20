@@ -226,3 +226,36 @@ SignalVision
 │   └── training.py
 └── test_folder
 ```
+
+## Project Status
+
+| Component | Status |
+| :--- | :---: |
+| LISA dataset exploration | Completed |
+| Annotation analysis | Completed |
+| Seven-to-three class mapping | Completed |
+| Automated YOLO preprocessing | Completed |
+| Training and validation dataset preparation | Completed |
+| YOLO26n, YOLO26s, and YOLO26m training | Completed |
+| Automated inference scripts | Completed |
+| Model evaluation and comparison | Completed |
+| Confidence and NMS threshold experiments | Completed |
+| False-positive and annotation-coverage investigation | Completed |
+| FastAPI model integration | Planned |
+| API rate limiting | Planned |
+| Docker containerization | Planned |
+| Backend and inference testing | Planned |
+| Deployment | Planned |
+
+---
+
+## Conclusion
+
+**SignalVision** brings together dataset auditing, automated YOLO preprocessing, multi-variant model training, and error analysis into a structured traffic-light detection workflow. With `YOLO26s` achieving `94.6%` precision, `94.0%` recall, `96.5%` mAP50, and `69.1%` mAP50-95 on validation data during training, the next step is turning the detector into a well-tested, rate-limited, containerized **FastAPI** inference service.
+
+* **Project:** SignalVision — Traffic Light Detection System
+* **Dataset:** LISA Traffic Light Dataset
+* **Models Trained:** YOLO26n, YOLO26s, YOLO26m
+* **Selected Model for Integration:** YOLO26s
+* **Classes:** Stop, Warning, Go
+* **Task:** Multi-class object detection
